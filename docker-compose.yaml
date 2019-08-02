@@ -5,7 +5,6 @@ services:
     ports:
       - 80:80
     volumes:
-      - ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
       - ./src:/var/www/html
     environment:
       WORDPRESS_DB_HOST: db
